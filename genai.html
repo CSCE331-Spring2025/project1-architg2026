@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="gen_ai-body">
+    <a href="index.html" class="gen_ai-archit-logo">Archit</a>
+
+    <div class="gen_ai-header">
+        <div class="gen_ai-left-title">Coffee</div>
+        <div class="gen_ai-center-content">
+            <div class="gen_ai-logo">
+                <img src="coffee-cup-earth.png" alt="Coffee Logo">
+                <div class="gen_ai-around-text">
+                    <span style="transform: rotate(0deg)">a</span>
+                    <span style="transform: rotate(36deg)">r</span>
+                    <span style="transform: rotate(72deg)">o</span>
+                    <span style="transform: rotate(108deg)">u</span>
+                    <span style="transform: rotate(144deg)">n</span>
+                    <span style="transform: rotate(180deg)">d</span>
+                    <span style="transform: rotate(216deg)">t</span>
+                    <span style="transform: rotate(252deg)">h</span>
+                    <span style="transform: rotate(288deg)">e</span>
+                </div>
+            </div>
+        </div>
+        <div class="gen_ai-right-title">World</div>
+    </div>
+
+    <div class="gen_ai-map-container">
+        <div class="gen_ai-map">
+            <img src="world-map.png" alt="World Map">
+        </div>
+    </div>
+
+    <div class="gen_ai-prompt-instructions">
+        <h3>Prompt Instructions</h3>
+        <ul>
+            <li>Create a webpage using HTML CSS and JS, this webpage will be titled Coffee around the world. Coffee will be written in the top left then there will be a picture of a coffee cup with the earth on it, then around the cup will be written "around the" then to the right of the image will be written world. Below that you will have an image of the world map with countries that are famous for coffee highlighted, this map will be interactive and should show a country's details when hovered on. Make sure to add color and make it coffee themed.</li>
+            <li>Add the words "around the" encircling the logo.</li>
+            <li>The words should be touching the border of the circle where the logo is located.</li>
+            <li>Do a static image of a world map and then add dots where countries would be.</li>
+        </ul>
+    </div>
+
+    <script>
+        const coffeeCountries = [
+            {
+                name: 'Ethiopia',
+                left: '53%',
+                top: '53%',
+                info: 'Known for its wine-like flavor and fruity notes.'
+            },
+            {
+                name: 'Colombia',
+                left: '18%',
+                top: '54%',
+                info: 'Known for its mild but rich aroma.'
+            },
+            {
+                name: 'Indonesia',
+                left: '75%',
+                top: '60%',
+                info: 'Known for its full body, rich flavor, and earthy notes.'
+            },
+            {
+                name: 'Brazil',
+                left: '28%',
+                top: '65%',
+                info: 'Known for its chocolate notes.'
+            },
+            {
+                name: 'Vietnam',
+                left: '74%',
+                top: '49%',
+                info: 'Known for its Robusta coffee production.'
+            }
+        ];
+
+        function createCountries() {
+            const map = document.querySelector('.gen_ai-map');
+            
+            coffeeCountries.forEach(country => {
+                const dot = document.createElement('div');
+                dot.className = 'gen_ai-country';
+                dot.style.left = country.left;
+                dot.style.top = country.top;
+                
+                const infoBox = document.createElement('div');
+                infoBox.className = 'gen_ai-info-box';
+                infoBox.innerHTML = `
+                    <h3>${country.name}</h3>
+                    <p>${country.info}</p>
+                `;
+                
+                dot.appendChild(infoBox);
+                map.appendChild(dot);
+
+                dot.addEventListener('mouseenter', () => {
+                    infoBox.style.display = 'block';
+                });
+
+                dot.addEventListener('mouseleave', () => {
+                    infoBox.style.display = 'none';
+                });
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', createCountries);
+    </script>
+</body>
+</html>
