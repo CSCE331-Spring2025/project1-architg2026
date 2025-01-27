@@ -150,7 +150,8 @@
 .qualifications-right-side {
     flex: 1;
     background-color: #FFFDD0;
-    padding: 0px;
+    padding-top: 35px;
+    margin: 0 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
