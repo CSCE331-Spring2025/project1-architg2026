@@ -57,6 +57,7 @@
     font-family: "Times New Roman", serif;
 }
 
+
 .index-about-me-section {
     margin-top: 50px;
     padding: 20px;
@@ -72,6 +73,13 @@
     color: white;
     font-size: 35px;
     font-family: "Snell Roundhand", cursive;
+    margin-bottom: 20px;
+}
+
+.index-about-me-section h3 {
+    color: white;
+    font-size: 25px;
+    font-family: "Times New Roman", serif;
     margin-bottom: 20px;
 }
 
