@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link id="mainStyleSheet" rel="stylesheet" href="style.css" /> -->
 </head>
 <body class="service-body">
-    <a href="index_HTML.html" class="service-logo">Archit</a>
+    <button class="toggle-button" onclick="toggleStyleSheet()" type="button">Toggle Style</button>
 
+    <a href="index.html" class="index-logo">Archit</a>
     <div class="service-navbar">
-        <a href="portfolio_HTML.html" class="index-pages">Portfolio</a>
-        <a href="qualifications_HTML.html" class="index-pages">Qualifications</a>
-        <a href="service_HTML.html" class="index-pages">Service</a>
-        <a href="genai_HTML.html" class="index-pages">Artificial Intelligence</a>
+        <a href="portfolio.html" class="index-pages">Portfolio</a>
+        <a href="qualifications.html" class="index-pages">Qualifications</a>
+        <a href="service.html" class="index-pages">Service</a>
+        <a href="genai.html" class="index-pages">AI</a>
     </div>
 
     <div class="service-title">Service</div>
 
     <div class="service-collage">
         <div class="service-square">
-            <img src="swimming.webp">
+            <img src="gencyber.jpeg">
         </div>
         <div class="service-square">
             <p>
-                <strong>GenCyber Camp</strong><br>
+                <strong><a href="https://public.cyber.mil/gencyber/">GenCyber Camp</strong><br></a>
                 Developed and delivered engaging cybersecurity-themed lesson plans for 30+ students. Tailored lessons to accommodate diverse learning styles, ensuring each student could grasp complex topics like online safety, encryption, and ethical hacking. Empowered students with practical skills and knowledge to navigate the digital world securely.
+            </p>
+        </div>
+        <div class="service-square">
+            <img src="swimming.webp">
+        </div>
+
+        <div class="service-square">
+            <p>
+                <strong><a href="https://crsw.swimtopia.com/">Swim Coach</strong><br></a>
+                Coached 20+ young swimmers to improve their technique and endurance. Provided personalized feedback to help them achieve their goals and fostered a love for swimming through encouragement and teamwork.
             </p>
         </div>
         <div class="service-square">
             <img src="tutor.jpeg">
         </div>
-
         <div class="service-square">
             <p>
-                <strong>Swim Coach</strong><br>
-                Coached 20+ young swimmers to improve their technique and endurance. Provided personalized feedback to help them achieve their goals and fostered a love for swimming through encouragement and teamwork.
-            </p>
-        </div>
-        <div class="service-square">
-            <img src="gencyber.jpeg">
-        </div>
-        <div class="service-square">
-            <p>
-                <strong>KatyISD After School STEM Camp</strong><br>
+                <strong><a href="https://www.katyisd.org/Page/4440">STEM Tutoring</strong><br></a>
                 Conducted orientation for 20+ new volunteers weekly to acclimate them through group activities and teamwork exercises. Provided personalized feedback to parents on their child’s performance to develop academic skills through bi-weekly meetings.
             </p>
         </div>
+        <script src="test.js"></script>
+
     </div>
 </body>
 </html>

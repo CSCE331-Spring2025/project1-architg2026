@@ -1,16 +1,17 @@
-<!DOCTYPE html>
+¬<!DOCTYPE html>
 <html>
 <head>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link id="mainStyleSheet" rel="stylesheet" href="style.css" /> -->
 </head>
 <body class="portfolio-body">
-    <a href="index_HTML.html" class="portfolio-logo">Archit</a>
+    <button class="toggle-button" onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+    <a href="index.html" class="index-logo">Archit</a>
 
     <div class="portfolio-navbar">
-        <a href="portfolio_HTML.html" class="index-pages">Portfolio</a>
-        <a href="qualifications_HTML.html" class="index-pages">Qualifications</a>
-        <a href="service_HTML.html" class="index-pages">Service</a>
-        <a href="genai_HTML.html" class="index-pages">Artificial Intelligence</a>
+        <a href="portfolio.html" class="index-pages">Portfolio</a>
+        <a href="qualifications.html" class="index-pages">Qualifications</a>
+        <a href="service.html" class="index-pages">Service</a>
+        <a href="genai.html" class="index-pages">AI</a>
     </div>
 
     <div class="portfolio-projects-title">Projects</div>
@@ -21,7 +22,7 @@
         </div>
         <div class="portfolio-square">
             <p>
-                <strong>Fortify SCA & Static Application Security Testing</strong><br>
+                <strong><a href="https://www.opentext.com/products/fortify-static-code-analyzer">Fortify SCA & Static Application Security Testing</strong><br></a>
                 Automated static code analysis using Fortify SCA to identify vulnerabilities in source code. Integrated into CI/CD pipelines for seamless security testing. Reduced manual effort by 70% and improved code quality.
             </p>
         </div>
@@ -31,7 +32,7 @@
 
         <div class="portfolio-square">
             <p>
-                <strong>Intrusion Detection Model</strong><br>
+                <strong><a href="https://www.geeksforgeeks.org/intrusion-detection-system-using-machine-learning-algorithms/">Intrusion Detection Model</strong><br></a>
                 Developed a deep learning-based intrusion detection system to identify malicious network activity. Achieved 95% accuracy in detecting anomalies using neural networks and real-world datasets.
             </p>
         </div>
@@ -40,10 +41,12 @@
         </div>
         <div class="portfolio-square">
             <p>
-                <strong>OWASP ZAP & Penetration Testing</strong><br>
+                <strong><a href="https://www.zaproxy.org/">OWASP ZAP & Penetration Testing</strong><br></a>
                 Conducted dynamic application security testing (DAST) using OWASP ZAP to identify vulnerabilities in web applications. Performed penetration testing to simulate attacks and improve application security.
             </p>
         </div>
+        <script src="test.js"></script>
+
     </div>
 </body>
 </html>
