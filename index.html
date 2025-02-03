@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+    <link id="mainStyleSheet" rel="stylesheet" href="style.css" />
 </head>
 <body class="index-body">
     <div class="index-navbar">
         <a href="index.html" class="index-logo">Archit</a>
+        <button class="toggle-button" onclick="toggleStyleSheet()" type="button">Toggle Style</button>
         <a href="portfolio.html" class="index-pages">Portfolio</a>
         <a href="qualifications.html" class="index-pages">Qualifications</a>
         <a href="service.html" class="index-pages">Service</a>
-        <a href="genai.html" class="index-pages">Artificial Intelligence</a>
+        <a href="genai.html" class="index-pages">AI</a>
     </div>
     
     <div class="index-image-container">
@@ -17,6 +19,8 @@
         <img src="IMG_1133.jpg" alt="Description of image">
         <p class="index-text">GOYAL</p>
     </div>
+
+    <!-- <button onclick="toggleStyleSheet()" type="button">Toggle Style</button> -->
 
     <div class="index-about-me-section">
         <h3>About Me</h3>
@@ -39,5 +43,7 @@
             So at the end of the day, I’m just someone who enjoys a good cup of coffee, loves exploring new places, and will never turn down a chance to play or watch a game of cricket. If any of that sounds like you, I'm sure we'll get along great!    
         </p>
     </div>
+
+    <script src="test.js"></script>
 </body>
 </html>

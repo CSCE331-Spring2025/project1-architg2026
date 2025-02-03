@@ -1,0 +1,574 @@
+/* INDEX.HTML */
+.index-body {
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+    background-image: url('nebula.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.index-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 100vh; 
+    padding: 10px 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.index-pages {
+    color: white;
+    font-size: 25px;
+    margin: 100px 0; 
+    text-decoration: none;
+    font-family: "Snell Roundhand", cursive;
+}
+
+.index-logo {
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    font-family: "Snell Roundhand", cursive;
+}
+
+.index-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.index-image-container img {
+    max-width: 600px;
+    max-height: 600px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.index-text {
+    color: white;
+    font-size: 40px;
+    margin: 0 20px;
+    font-family: "Times New Roman", serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.index-about-me-section {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.index-about-me-section h2 {
+    color: white;
+    font-size: 35px;
+    font-family: "Snell Roundhand", cursive;
+    margin-bottom: 20px;
+}
+
+.index-about-me-section h3 {
+    color: white;
+    font-size: 25px;
+    font-family: "Times New Roman", serif;
+    margin-bottom: 20px;
+}
+
+.index-about-me-section p {
+    color: white;
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+    line-height: 1.6;
+}
+
+/* PORTFOLIO.HTML */
+.portfolio-body {
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-image: url('nebula.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-logo {
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    font-family: "Snell Roundhand", cursive;
+}
+
+.portfolio-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 100vh; 
+    margin-top: 65px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.portfolio-pages {
+    color: white;
+    font-size: 25px;
+    margin: 100px 0; 
+    text-decoration: none;
+    font-family: "Snell Roundhand", cursive;
+}
+
+.portfolio-collage {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 75px;
+}
+
+.portfolio-square {
+    width: 40%; 
+    height: 40vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.035);
+    overflow: hidden;
+}
+.portfolio-square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-projects-title {
+    color: white;
+    font-size: 40px;
+    font-family: "Snell Roundhand", cursive;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* QUALIFICATIONS.HTML */
+.qualifications-body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-image: url('nebula.jpg');
+    background-size: cover;
+    background-position: center;
+    flex-direction: row-reverse; 
+}
+
+.qualifications-left-side {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.qualifications-right-side {
+    flex: 1;
+    background-color: #000000;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 40px;}
+
+.qualifications-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 140px;
+    /* margin-top: 65px; */
+    height: 100vh; 
+    z-index: 1000;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.qualifications-pages {
+    color: white;
+    font-size: 25px;
+    margin: 50px 0; 
+    text-decoration: none;
+    font-family: "Snell Roundhand", cursive;
+}
+
+.qualifications-logo {
+    color: white;
+    font-size: 45px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    font-family: "Snell Roundhand", cursive;
+    z-index: 9999;
+}
+
+.qualifications-iframe {
+    width: 100%;
+    height: 100vh;
+    border: none;
+}
+
+.qualifications-left-side h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #fffdd0;
+    text-align: center;
+}
+
+.qualifications-left-side h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #fffdd0;
+    padding-bottom: 5px;
+    
+}
+
+.qualifications-left-side p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fffdd0;
+}
+
+.qualifications-left-side ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.qualifications-left-side ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #FFFDD0;
+
+}
+
+.qualifications-left-side ul li strong {
+    color: #FFFDD0;
+}
+
+/* SERVICE.HTML */
+.service-body {
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-image: url('nebula.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.service-logo {
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    font-family: "Snell Roundhand", cursive;
+}
+
+.service-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 100vh; 
+    padding: 10px 0;
+    z-index: 1000;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.service-pages {
+    color: white;
+    font-size: 25px;
+    margin: 100px 0; 
+    text-decoration: none;
+    font-family: "Snell Roundhand", cursive;
+}
+
+.service-collage {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 75px;
+}
+
+.service-square {
+    width: 40%; 
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.035);
+    overflow: hidden;
+}
+
+.service-square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-title {
+    color: white;
+    font-size: 40px;
+    font-family: "Snell Roundhand", cursive;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+/* GENAI.HTML */
+.gen_ai-body {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+    color: #2c1810;
+}
+
+.gen_ai-archit-logo {
+    color: #4a2c2a;
+    font-size: 45px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    text-decoration: none;
+    font-family: "Snell Roundhand", cursive;
+}
+
+.gen_ai-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 300px;
+    position: relative;
+}
+
+.gen_ai-left-title {
+    font-size: 4em;
+    color: #4a2c2a;
+    margin-left: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.gen_ai-center-content {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gen_ai-logo {
+    width: 200px;
+    height: 200px;
+    background: #654321;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.gen_ai-logo img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.gen_ai-around-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: rotate 10s linear infinite;
+}
+
+.gen_ai-around-text span {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform-origin: 0 100px;
+    font-size: 1.2em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.gen_ai-right-title {
+    font-size: 4em;
+    color: #4a2c2a;
+    margin-right: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.gen_ai-map-container {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f8f8 100%);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.gen_ai-map {
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.gen_ai-map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gen_ai-country {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #8b4513;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.gen_ai-country:hover {
+    transform: scale(1.5);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.gen_ai-info-box {
+    display: none;
+    position: absolute;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f8f8 100%);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    max-width: 300px;
+    z-index: 100;
+    border: 2px solid #8b4513;
+    font-size: 14px;
+}
+
+.gen_ai-info-box h3 {
+    margin-top: 0;
+    color: #4a2c2a;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #8b4513;
+    padding-bottom: 5px;
+}
+
+.gen_ai-info-box p {
+    margin-bottom: 0;
+    line-height: 1.4;
+    color: #2c1810;
+}
+
+.gen_ai-prompt-instructions {
+    margin-top: 40px;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f8f8 100%);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    border: 2px solid #8b4513;
+}
+
+.gen_ai-prompt-instructions h3 {
+    margin-top: 0;
+    color: #4a2c2a;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #8b4513;
+    padding-bottom: 10px;
+}
+
+.gen_ai-prompt-instructions ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.gen_ai-prompt-instructions ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2c1810;
+}
+.toggle-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Snell Roundhand", cursive;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+    background-color: #f0f0f0;
+}

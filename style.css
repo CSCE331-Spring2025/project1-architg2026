@@ -186,6 +186,7 @@
     background-color: #FFFDD0;
     padding-top: 35px;
     margin: 0 0 0 0;
+    margin-top: 30 p;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -526,4 +527,16 @@
     font-size: 16px;
     line-height: 1.6;
     color: #2c1810;
+}
+.toggle-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-family: "Snell Roundhand", cursive;
+    font-size: 15px;
+}
+
+.toggle-button:hover {
+    background-color: #f0f0f0;
 }
